@@ -1,0 +1,2 @@
+C:\Users\setha\source\repos\Ambatukam\Ambatukam\obj\release\Ambatukam.csproj.AssemblyReference.cache
+C:\Users\setha\source\repos\Ambatukam\Ambatukam\obj\release\Ambatukam.csproj.SuggestedBindingRedirects.cache

@@ -1,0 +1,29 @@
+﻿<Window x:Name="mainFrame" WindowStartupLocation ="CenterScreen" x:Class="Ambatukam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Ambatukam"
+        mc:Ignorable="d"
+        Title="Ambatukam" Height="800" Width="500" ResizeMode="NoResize">
+    <Grid x:Name="mainGrid" Width="500" Height="782">
+        <Grid.Background>
+            <ImageBrush ImageSource="/db.jpg" TileMode="None"/>
+        </Grid.Background>
+        <StackPanel x:Name="mainPanel" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Label x:Name="projectDescriptionLbl" Content="Ambatukam Soundboard" FontSize="36" HorizontalAlignment="Center" VerticalAlignment="Center" Panel.ZIndex="4" Margin="0,10,0,40" Background="{x:Null}" FontWeight="Bold" Foreground="#FF733535"/>
+            <Button x:Name="ambatublouBtn" Content="Ambatublou" Width="120" Height="60" Click="ambatublouBtn_Click" RenderTransformOrigin="-0.921,0.599" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="10,0,0,-70" Panel.ZIndex="4"/>
+            <Button x:Name="ambatukamBtn" Content="Ambatukam" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Center" Height="60" Panel.ZIndex="4" Width="120" Click="ambatukamBtn_Click"/>
+            <MediaElement x:Name="videoPlayer" Height="240" Width="240" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,140,-150,0" Volume="1" ClipToBounds="True"/>
+            <Button x:Name="ambatukaaaa" Content="Ambatukaaaaaaaa" HorizontalAlignment="Left" Margin="10,-650,0,0" Height="60" Width="120" Click="ambatukaaaa_Click" VerticalAlignment="Center" Panel.ZIndex="4"/>
+            <Button x:Name="omaygatBtn" Content="Omaygat" HorizontalAlignment="Left" Width="120" Height="60" Margin="10,-475,0,0" Click="omaygatBtn_Click" VerticalAlignment="Center"/>
+            <Button x:Name="ambasingBtn" Content="Ambasing" HorizontalAlignment="Left" Width="120" Height="60" Margin="10,-300,0,0" Click="ambasingBtn_Click" VerticalAlignment="Center"/>
+            <Button x:Name="plugItInBtn" Content="Plug it in!!!" HorizontalAlignment="Left" Width="120" Height="60" Margin="10,-130,0,0" Click="plugItInBtn_Click"/>
+            <Button x:Name="ambatucryBtn" Content="Ambatucry" VerticalAlignment="Center" HorizontalAlignment="Left" Width="120" Height="60" Margin="10,-10,10,0" Click="ambatucryBtn_Click"/>
+        </StackPanel>
+        <Label x:Name="buildVersion" Content="Version 1.2" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Foreground="#FFB94F4F"/>
+        <Button x:Name="yesIAmBtn" Content="Ambatukam Yes I Am" HorizontalAlignment="Left" Margin="335,160,0,0" VerticalAlignment="Top" Width="120" Height="60" Click="yesIAmBtn_Click"/>
+        <Button x:Name="ambatunatBtn" Content="Ambatunat" HorizontalAlignment="Right" Margin="0,242,45,0" VerticalAlignment="Top" Width="120" Height="60" Click="ambatunatBtn_Click"/>
+        <Button x:Name="ambatukamEUHBtn" Content="Ambatukam EUH" HorizontalAlignment="Right" Margin="0,331,45,0" VerticalAlignment="Top" Width="120" Height="60" Click="ambatukamEUHBtn_Click"/>
+    </Grid>
+</Window>
